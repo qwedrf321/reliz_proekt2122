@@ -1,4 +1,4 @@
-// ================== COOKIES ==================
+
 function getCookieValue(cookieName) {
     const cookies = document.cookie.split(';');
     for (let cookie of cookies) {
@@ -10,7 +10,7 @@ function getCookieValue(cookieName) {
     return '';
 }
 
-// ================== CART CLASS ==================
+
 class ShoppingCart {
     constructor() {
         this.items = {};
@@ -51,5 +51,5 @@ class ShoppingCart {
     }
 }
 
-// ================== GLOBAL CART ==================
+
 window.cart = new ShoppingCart();

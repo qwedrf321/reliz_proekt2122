@@ -40,16 +40,15 @@ if (clearBtn) {
 }
 
 function showCartList() {
-    if (!cart_list) return; // Проверка на существование элемента
+    if (!cart_list) return;
     cart_list.innerHTML = ''
-    for (let key in cart.items) { // проходимося по всіх ключах об'єкта cart.items
+    for (let key in cart.items) {
         cart_list.innerHTML += get_item(cart.items[key])
     }
     if (cart_total) {
         cart_total.innerHTML = cart.getTotal()
     }
 
-    // Додаємо обробники для кнопок видалення
     document.querySelectorAll('.delbtn').forEach((btn, index) => {
         const keys = Object.keys(cart.items);
         btn.addEventListener('click', () => {
@@ -65,7 +64,6 @@ function showCartList() {
     });
 }
 
-// Вызываем showCartList только если мы на странице корзины/магазина
 if (cart_list && cart_total) {
     showCartList();
 }
@@ -76,8 +74,8 @@ if (orderBtn) {
         orderSection.style.display = "block"
         anime({
             targets: '.order',
-            opacity: 1, // Кінцева прозорість (1 - повністю видимий)
-            duration: 1000, // Тривалість анімації в мілісекундах
+            opacity: 1,
+            duration: 1000,
             easing: 'easeInOutQuad'
         })
     });
@@ -85,12 +83,10 @@ if (orderBtn) {
 const modal = document.getElementById('modal');
 const closeBtn = document.getElementById('closeModal');
 
-// открыть
 function openModal() {
     if (modal) modal.style.display = 'flex';
 }
 
-// закрыть
 function closeModal() {
     if (modal) modal.style.display = 'none';
     if (orderBtn) orderBtn.style.display = 'block';
@@ -98,14 +94,12 @@ function closeModal() {
 
 if (closeBtn) closeBtn.onclick = closeModal;
 
-// закрытие по клику вне окна
 if (modal) {
     modal.onclick = (e) => {
         if (e.target === modal) closeModal();
     };
 }
 
-// Обробка форми замовлення
 const orderForm = document.querySelector('.order-form');
 if (orderForm) {
     orderForm.addEventListener('submit', (e) => {
@@ -125,19 +119,11 @@ if (orderForm) {
 
         console.log('Order submitted:', formData);
 
-        // Відправка на сервер (якщо потрібно)
-        // fetch('/api/orders', { method: 'POST', body: JSON.stringify(formData) })
-
-        // Очищення корзини та закриття модалю
         cart.clear();
         closeModal();
         showCartList();
         orderBtn.style.display = 'block';
 
-        // Показати повідомлення про успіх
-        //alert('Ну і куда ті заказіваеш');
         window.location.href = 'https://youtu.be/dQw4w9WgXcQ?si=mmPsyCtptFB9mFvJ&t=40';
     });
 }
-
-console.log("dzava.js работает");

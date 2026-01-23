@@ -1,4 +1,3 @@
-// ================== ЗАХИСТ ДЛЯ STORE.HTML ==================
 const productsContainer = document.getElementById('products');
 if (!productsContainer) {
     console.log('Catalog JS not needed on this page');
@@ -20,7 +19,6 @@ if (!productsContainer) {
         return array;
     }
 
-    // ================== COOKIES ==================
     function getCookieValue(cookieName) {
         const cookies = document.cookie.split(';');
         for (let cookie of cookies) {
@@ -32,7 +30,6 @@ if (!productsContainer) {
         return '';
     }
 
-    // ================== КОРЗИНА ==================
     class ShoppingCart {
         constructor() {
             this.items = {};
@@ -66,7 +63,6 @@ if (!productsContainer) {
         }
     }
 
-    // ================== РЕНДЕР ==================
     function renderPage() {
         productsContainer.innerHTML = '';
 
@@ -96,7 +92,6 @@ if (!productsContainer) {
         const totalPages = Math.ceil(currentProducts.length / perPage);
         const pagination = document.querySelector('.pagination');
 
-        // Скрываем пагинацию если нет результатов
         if (currentProducts.length === 0) {
             pagination.style.display = 'none';
             pageInfo.textContent = '0 / 0';
@@ -109,7 +104,6 @@ if (!productsContainer) {
         nextBtn.disabled = currentPage === totalPages;
     }
 
-    // ================== КНОПКИ ПАГІНАЦІЇ ==================
     prevBtn.onclick = () => {
         if (currentPage > 1) {
             currentPage--;
@@ -117,7 +111,7 @@ if (!productsContainer) {
         }
         window.scrollTo({
             top: 0,
-            behavior: "smooth" // плавно
+            behavior: "smooth"
         });
     };
 
@@ -129,11 +123,10 @@ if (!productsContainer) {
         }
         window.scrollTo({
             top: 0,
-            behavior: "smooth" // плавно
+            behavior: "smooth"
         });
     };
 
-    // ================== ФІЛЬТРИ ==================
     const filterLinks = document.querySelectorAll('.filter_list a[data-filter]');
 
     filterLinks.forEach(link => {
@@ -149,12 +142,11 @@ if (!productsContainer) {
             renderPage();
             window.scrollTo({
                 top: 0,
-                behavior: "smooth" // плавно
+                behavior: "smooth"
             });
         });
     });
 
-    // ================== ПОИСК ==================
     const searchInput = document.getElementById('searchInput');
     if (searchInput) {
         searchInput.addEventListener('input', function () {
@@ -173,7 +165,6 @@ if (!productsContainer) {
         });
     }
 
-    // ================== ДОДАВАННЯ В КОРЗИНУ (ДЕЛЕГУВАННЯ) ==================
     document.addEventListener('click', function (e) {
         if (e.target.classList.contains('buy_button')) {
             const productData = e.target.dataset.product;
@@ -186,11 +177,10 @@ if (!productsContainer) {
         }
     });
 
-    // ================== ЗАВАНТАЖЕННЯ ТОВАРІВ ==================
     fetch('products.json')
         .then(res => res.json())
         .then(data => {
-            allProducts = shuffleArray([...data]); // перемешиваем
+            allProducts = shuffleArray([...data]);
             currentProducts = allProducts;
             renderPage();
         });
