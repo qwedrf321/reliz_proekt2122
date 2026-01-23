@@ -1,0 +1,204 @@
+.body {
+    background-color: #B7E64F;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu {
+    margin-top: 20px;
+    background-color: #82B118;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    gap: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+    justify-content: space-between; 
+}
+
+.cont_like {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: rgba(255, 255, 255, 0.0);
+}
+
+.home{
+    text-decoration: none;
+    padding: 20px;
+}
+
+.like {
+    width: 40px;
+    height: 35px;
+}
+
+.shop {
+    width: 35px;
+    height: 35px;
+}
+
+a{
+    text-decoration: none;
+    color: #212d06;
+}
+
+.cont{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    background-color: blueviolet;
+    height: 800px;
+    padding: 15px;
+
+}
+
+.cont1{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    width:50%;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    justify-self: start;
+}
+
+.cont2{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    width:50%;
+    background-color: brown;    
+    justify-content: center;
+    align-items: center;
+}
+
+.img_tov{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(56, 223, 196);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.img{
+    object-fit: contain;
+    max-width: 680px;
+    max-height: 560px;
+}
+
+.descr{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(192, 162, 162);
+
+}
+
+.des{
+    font-size: 20px;
+}
+.buy_button {
+    background-color: #82B118;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+.buy_button:hover {
+    background-color: #6fa313; /* чуть темнее или светлее по вкусу */
+}
+
+/* При нажатии (клик) темнеет и уменьшается */
+.buy_button:active {
+    background-color: #5a8710;  /* темнее */
+    transform: scale(0.95);      /* немного уменьшается */
+}
+.footer {
+    background-color: #82B118;
+    padding: 20px 10px 5px;
+    color: #212d06;
+
+}
+
+.footer_content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #212d06;
+}
+
+.footer_section h3, .footer_section h4 {
+    margin-bottom: 15px;
+    color: #212d06;
+}
+
+.footer_section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_section ul li {
+    margin-bottom: 8px;
+}
+
+.footer_section ul li a {
+    color: #314209;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer_section ul li a:hover {
+    color: #b3ff00;
+}
+
+.footer_bottom {
+    border-top: 1px solid #212d06;
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #212d06;
+}
+
+.search{
+    background-color: #D6F792;
+    border: none;
+    width:200px;
+    height: 25px;
+}
+
+.buy_button_tovar {
+    background-color: #82B118;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.buy_button_tovar:hover {
+    background-color: #6a8f15;
+}

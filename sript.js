@@ -78,7 +78,7 @@ if (!productsContainer) {
             productsContainer.innerHTML += `
                 <div class="product">
                     <div class="product_img">
-                        <img src="${p.image}" style="max-width:170px">
+                        <a class = 'tovar' href = 'tovar.html?id=${p.id}'><img src="${p.image}" style="max-width:170px"></a>
                     </div>
                     <div class="title">${p.title}</div>
                     <div class="prbt">

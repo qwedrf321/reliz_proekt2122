@@ -4,336 +4,564 @@
         "title": "Asus TUF Gaming B850-PLUS Wi-Fi",
         "price": 11477,
         "category": "motherboard",
-        "image": "kartinti_mat/502800245.webp"
+        "image": "kartinti_mat/502800245.webp",
+        "socket": "Socket AM5",
+        "chipset": "AMD B850",
+        "form_factor": "ATX",
+        "memory_lots": "4"
     },
     {
         "id": 2,
         "title": "Gigabyte B550M Aorus Elite",
         "price": 4599,
         "category": "motherboard",
-        "image": "kartinti_mat/30200012.webp"
+        "image": "kartinti_mat/30200012.webp",
+        "socket": "Socket AM4",
+        "chipset": "AMD B550",
+        "form_factor": "MicroATX",
+        "memory_lots": "4"
     },
     {
         "id": 3,
         "title": "Asus ROG Strix B850-A Gaming Wi-Fi",
         "price": 14095,
         "category": "motherboard",
-        "image": "kartinti_mat/597703139.webp"
+        "image": "kartinti_mat/597703139.webp",
+        "socket": "Socket AM5",
+        "chipset": "AMD B850",
+        "form_factor": "ATX",
+        "memory_lots": "4"
     },
     {
         "id": 4,
         "title": "Asus PRIME B650M-K",
         "price": 5879,
         "category": "motherboard",
-        "image": "kartinti_mat/471647747.webp"
+        "image": "kartinti_mat/471647747.webp",
+        "socket": "Socket AM5",
+        "chipset": "AMD B650",
+        "form_factor": "MicroATX",
+        "memory_lots": "2"
     },
     {
         "id": 5,
         "title": "Gigabyte B650 EAGLE AX",
         "price": 8699,
         "category": "motherboard",
-        "image": "kartinti_mat/511721509.webp"
+        "image": "kartinti_mat/511721509.webp",
+        "socket": "Socket AM5",
+        "chipset": "AMD B650",
+        "form_factor": "ATX",
+        "memory_lots": "4"
     },
     {
         "id": 6,
         "title": "Asus ROG Strix B850-E Gaming Wi-Fi",
         "price": 18299,
         "category": "motherboard",
-        "image": "kartinti_mat/631395400.webp"
+        "image": "kartinti_mat/631395400.webp",
+        "socket": "Socket AM5",
+        "chipset": "AMD B850",
+        "form_factor": "ATX",
+        "memory_lots": "4"
     },
     {
         "id": 7,
         "title": "MSI A520M-A Pro",
         "price": 2565,
         "category": "motherboard",
-        "image": "kartinti_mat/110735408 (1).webp"
+        "image": "kartinti_mat/110735408 (1).webp",
+        "socket": "Socket AM4",
+        "chipset": "AMD A520",
+        "form_factor": "MicroATX",
+        "memory_lots": "2"
     },
     {
         "id": 8,
         "title": "MSI B850M GAMING PLUS WIFI",
         "price": 8904,
         "category": "motherboard",
-        "image": "kartinti_mat/620678036.webp"
+        "image": "kartinti_mat/620678036.webp",
+        "socket": "Socket AM5",
+        "chipset": "AMD B850",
+        "form_factor": "MicroATX",
+        "memory_lots": "4"
     },
     {
         "id": 9,
         "title": "Asus TUF Gaming B550-Plus",
         "price": 6383,
         "category": "motherboard",
-        "image": "kartinti_mat/597695862.webp"
+        "image": "kartinti_mat/597695862.webp",
+        "socket": "Socket AM4",
+        "chipset": "AMD B550",
+        "form_factor": "ATX",
+        "memory_lots": "4"
     },
     {
         "id": 10,
         "title": "Asus ROG Strix B850-F Gaming Wi-Fi",
         "price": 15215,
         "category": "motherboard",
-        "image": "kartinti_mat/631395444.webp"
+        "image": "kartinti_mat/631395444.webp",
+        "socket": "Socket AM5",
+        "chipset": "AMD B850",
+        "form_factor": "ATX",
+        "memory_lots": "4"
     },
     {
         "id": 11,
         "title": "Gigabyte B550M K",
         "price": 3548,
         "category": "motherboard",
-        "image": "kartinti_mat/330558994.webp"
+        "image": "kartinti_mat/330558994.webp",
+        "socket": "Socket AM4",
+        "chipset": "AMD B550",
+        "form_factor": "MicroATX",
+        "memory_lots": "4"
     },
     {
         "id": 12,
         "title": "Gigabyte B550 AORUS ELITE V2",
         "price": 7401,
         "category": "motherboard",
-        "image": "kartinti_mat/392591241.webp"
+        "image": "kartinti_mat/392591241.webp",
+        "socket": "Socket AM4",
+        "chipset": "AMD B550",
+        "form_factor": "ATX",
+        "memory_lots": "4"
     },
     {
         "id": 13,
         "title": "AMD Ryzen 7 7800X3D 4.2GHz/96MB",
         "price": 18309,
         "category": "cpu",
-        "image": "kartinki_proc/488395454.webp"
+        "image": "kartinki_proc/488395454.webp",
+        "socket": "Socket AM5",
+        "cores": "8",
+        "threads": "16",
+        "clock frequency": "4.2 ГГц",
+        "max_clock_frequency": "5.0 ГГц"
     },
     {
         "id": 14,
         "title": "Intel Core i7-11700KF 3.6GHz/16MB",
         "price": 9945,
         "category": "cpu",
-        "image": "kartinki_proc/579284975.webp"
+        "image": "kartinki_proc/579284975.webp",
+        "socket": "Socket 1200",
+        "cores": "8",
+        "threads": "16",
+        "clock frequency": "3.6 ГГц",
+        "max_clock_frequency": "5.0 ГГц"
     },
     {
         "id": 15,
         "title": "AMD Ryzen 7 7700 3.8GHz/32MB",
         "price": 11599,
         "category": "cpu",
-        "image": "kartinki_proc/492378402.webp"
+        "image": "kartinki_proc/492378402.webp",
+        "socket": "Socket AM5",
+        "cores": "8",
+        "threads": "16",
+        "clock frequency": "3.8 ГГц",
+        "max_clock_frequency": "5.3 ГГц"
     },
     {
         "id": 16,
         "title": "AMD Ryzen 5 7500F 3.7GHz/32MB",
         "price": 7620,
         "category": "cpu",
-        "image": "kartinki_proc/488395454.webp"
+        "image": "kartinki_proc/488395454.webp",
+        "socket": "Socket AM5",
+        "cores": "6",
+        "threads": "12",
+        "clock frequency": "3.7 ГГц",
+        "max_clock_frequency": "5.0 ГГц"
     },
     {
         "id": 17,
         "title": "Intel Core i9-10900F 2.8GHz/20MB",
         "price": 10245,
         "category": "cpu",
-        "image": "kartinki_proc/605135533.webp"
+        "image": "kartinki_proc/605135533.webp",
+        "socket": "Socket 1200",
+        "cores": "10",
+        "threads": "20",
+        "clock frequency": "2.8 ГГц",
+        "max_clock_frequency": "5.0 ГГц"
     },
     {
         "id": 18,
         "title": "Intel Core i7-9700F 3.0GHz/12MB",
         "price": 6895,
         "category": "cpu",
-        "image": "kartinki_proc/525787354.webp"
+        "image": "kartinki_proc/525787354.webp",
+        "socket": "Socket 1151-V2",
+        "cores": "8",
+        "threads": "8",
+        "clock frequency": "3 ГГц",
+        "max_clock_frequency": "4.7 ГГц"
     },
     {
         "id": 19,
         "title": "AMD Ryzen 7 5700X",
         "price": 6399,
         "category": "cpu",
-        "image": "kartinki_proc/601082867.webp"
+        "image": "kartinki_proc/601082867.webp",
+        "socket": "Socket AM4",
+        "cores": "8",
+        "threads": "16",
+        "clock frequency": "3.4 ГГц",
+        "max_clock_frequency": "4.6 ГГц"
     },
     {
         "id": 20,
         "title": "Intel Core i5-12400F",
         "price": 5390,
         "category": "cpu",
-        "image": "kartinki_proc/505102949.webp"
+        "image": "kartinki_proc/505102949.webp",
+        "socket": "Socket 1700",
+        "cores": "6",
+        "threads": "12",
+        "clock frequency": "2.5 ГГц",
+        "max_clock_frequency": "4.4 ГГц"
     },
     {
         "id": 21,
         "title": "AMD Ryzen 5 3600",
         "price": 3552,
         "category": "cpu",
-        "image": "kartinki_proc/496980797.webp"
+        "image": "kartinki_proc/496980797.webp",
+        "socket": "Socket AM4",
+        "cores": "6",
+        "threads": "12",
+        "clock frequency": "3.6 ГГц",
+        "max_clock_frequency": "4.2 ГГц"
     },
     {
         "id": 22,
         "title": "AMD Ryzen 7 8700F 4.1GHz/16MB",
         "price": 8399,
         "category": "cpu",
-        "image": "kartinki_proc/490839506.webp"
+        "image": "kartinki_proc/490839506.webp",
+        "socket": "Socket AM5",
+        "cores": "8",
+        "threads": "16",
+        "clock frequency": "4.1 ГГц",
+        "max_clock_frequency": "5.0 ГГц"
     },
     {
         "id": 23,
         "title": "AMD Ryzen 3 1300X 3.7GHz",
         "price": 1100,
         "category": "cpu",
-        "image": "kartinki_proc/443041346.webp"
+        "image": "kartinki_proc/443041346.webp",
+        "socket": "Socket AM4",
+        "cores": "4",
+        "threads": "4",
+        "clock frequency": "3.4 ГГц",
+        "max_clock_frequency": "3.7 ГГц"
     },
     {
         "id": 24,
         "title": "Intel Core i5-14600KF 3.5GHz",
         "price": 10182,
         "category": "cpu",
-        "image": "kartinki_proc/597692870.webp"
+        "image": "kartinki_proc/597692870.webp",
+        "socket": "Socket 1700",
+        "cores": "14",
+        "threads": "20",
+        "clock frequency": "3.5 ГГц",
+        "max_clock_frequency": "5.3 ГГц"
     },
     {
         "id": 25,
         "title": "ASUS PCI-Ex GeForce RTX 5060 Dual OC Edition 8GB GDDR7",
         "price": 16859,
         "category": "gpu",
-        "image": "kartinki_vid/552341856.webp"
+        "image": "kartinki_vid/552341856.webp",
+        "graphics_chip": "GeForce RTX 5060",
+        "memory_size": "8 ГБ",
+        "minimum_required_power_supply_capacity": "550 Вт",
+        "memorybus_width": "128 біт",
+        "memory_type": "GDDR7"
     },
     {
         "id": 26,
         "title": "Gigabyte PCI-Ex GeForce RTX 5060 WINDFORCE MAX OC 8GB GDDR7",
         "price": 15699,
         "category": "gpu",
-        "image": "kartinki_vid/585771073.webp"
+        "image": "kartinki_vid/585771073.webp",
+        "graphics_chip": "GeForce RTX 5060",
+        "memory_size": "8 ГБ",
+        "minimum_required_power_supply_capacity": "550 Вт",
+        "memorybus_width": "128 біт",
+        "memory_type": "GDDR7"
     },
     {
         "id": 27,
         "title": "Asus PCI-Ex GeForce RTX 3050 Dual OC Edition 8GB GDDR6",
         "price": 11799,
         "category": "gpu",
-        "image": "kartinki_vid/359635245.webp"
+        "image": "kartinki_vid/359635245.webp",
+        "graphics_chip": "GeForce RTX 3050",
+        "memory_size": "6 ГБ",
+        "minimum_required_power_supply_capacity": "550 Вт",
+        "memorybus_width": "96 біт",
+        "memory_type": "GDDR6"
     },
     {
         "id": 28,
         "title": "ASUS PCI-Ex Radeon RX 9060 XT Dual 16GB GDDR6",
         "price": 20999,
         "category": "gpu",
-        "image": "kartinki_vid/593208334.webp"
+        "image": "kartinki_vid/593208334.webp",
+        "graphics_chip": "Radeon RX 9060 XT",
+        "memory_size": "16 ГБ",
+        "minimum_required_power_supply_capacity": "550 Вт",
+        "memorybus_width": "128 біт",
+        "memory_type": "GDDR6"
     },
     {
         "id": 29,
         "title": "ASUS PCI-Ex GeForce RTX 5050 Dual OC Edition 8GB GDDR6",
         "price": 15459,
         "category": "gpu",
-        "image": "kartinki_vid/587181029.webp"
+        "image": "kartinki_vid/587181029.webp",
+        "graphics_chip": "GeForce RTX 5050",
+        "memory_size": "8 ГБ",
+        "minimum_required_power_supply_capacity": "550 Вт",
+        "memorybus_width": "128 біт",
+        "memory_type": "GDDR6"
     },
     {
         "id": 30,
         "title": "ASUS PCI-Ex GeForce RTX 3050 Dual OC Edition 6GB GDDR6",
         "price": 9999,
         "category": "gpu",
-        "image": "kartinki_vid/406762262.webp"
+        "image": "kartinki_vid/406762262.webp",
+        "graphics_chip": "GeForce RTX 3050",
+        "memory_size": "6 ГБ",
+        "minimum_required_power_supply_capacity": "550 Вт",
+        "memorybus_width": "96 біт",
+        "memory_type": "GDDR6"
     },
     {
         "id": 31,
         "title": "MSI PCI-Ex GeForce RTX 5070 Ventus 2X OC 12GB GDDR7",
         "price": 37999,
         "category": "gpu",
-        "image": "kartinki_vid/518856383.webp"
+        "image": "kartinki_vid/518856383.webp",
+        "graphics_chip": "GeForce RTX 5070",
+        "memory_size": "12 ГБ",
+        "minimum_required_power_supply_capacity": "650 Вт",
+        "memorybus_width": "192 біт",
+        "memory_type": "GDDR7"
     },
     {
         "id": 32,
         "title": "Palit GeForce RTX 2060 Super Dual",
         "price": 11400,
         "category": "gpu",
-        "image": "kartinki_vid/621940403.webp"
+        "image": "kartinki_vid/621940403.webp",
+        "graphics_chip": "GeForce RTX 2060 Super",
+        "memory_size": "8 ГБ",
+        "minimum_required_power_supply_capacity": "550 Вт",
+        "memorybus_width": "256 біт",
+        "memory_type": "GDDR6"
     },
     {
         "id": 33,
         "title": "Peladn AMD Radeon RX 580 8GB 256-Bit 2048SP Gaming",
         "price": 7600,
         "category": "gpu",
-        "image": "kartinki_vid/495533376.webp"
+        "image": "kartinki_vid/495533376.webp",
+        "graphics_chip": "RX 580",
+        "memory_size": "8 ГБ",
+        "minimum_required_power_supply_capacity": "500 Вт",
+        "memorybus_width": "256 біт",
+        "memory_type": "GDDR5"
     },
     {
         "id": 34,
         "title": "MSI PCI-Ex GeForce RTX 5060 Ti GAMING OC 16GB GDDR7",
         "price": 29019,
         "category": "gpu",
-        "image": "kartinki_vid/541968563.webp"
+        "image": "kartinki_vid/541968563.webp",
+        "graphics_chip": "GeForce RTX 5060 Ti",
+        "memory_size": "16 ГБ",
+        "minimum_required_power_supply_capacity": "600 Вт",
+        "memorybus_width": "128 біт",
+        "memory_type": "GDDR7"
     },
     {
         "id": 35,
         "title": "Arktek PCI-Ex GeForce GTX 1660 Super Dual Fan 6GB GDDR6",
         "price": 9799,
         "category": "gpu",
-        "image": "kartinki_vid/366881132.webp"
+        "image": "kartinki_vid/366881132.webp",
+        "graphics_chip": "GeForce GTX 1660 Super",
+        "memory_size": "6 ГБ",
+        "minimum_required_power_supply_capacity": "450 Вт",
+        "memorybus_width": "192 біт",
+        "memory_type": "GDDR6"
     },
     {
         "id": 36,
         "title": "MSI PCI-Ex GeForce RTX 5060 INSPIRE 2X OC 8GB GDDR7",
         "price": 17499,
         "category": "gpu",
-        "image": "kartinki_vid/551713423.webp"
+        "image": "kartinki_vid/551713423.webp",
+        "graphics_chip": "GeForce RTX 5060",
+        "memory_size": "8 ГБ",
+        "minimum_required_power_supply_capacity": "550 Вт",
+        "memorybus_width": "128 біт",
+        "memory_type": "GDDR7"
     },
     {
         "id": 37,
         "title": "Apacer DDR5-5600 32768 MB PC5-44800",
         "price": 14199,
         "category": "ram",
-        "image": "kartinki_opra/516386706.webp"
+        "image": "kartinki_opra/516386706.webp",
+        "memory_capacity": "32 ГБ",
+        "memory_frequency": "5600 МГц",
+        "memory_type": "DDR5 SDRAM",
+        "number_of_slats": "2",
+        "memory_timing_diagram": "40-40-40"
     },
     {
         "id": 38,
         "title": "Kingston Fury DDR5-5200 32768 MB PC5-41600",
         "price": 12499,
         "category": "ram",
-        "image": "kartinki_opra/232391759.webp"
+        "image": "kartinki_opra/232391759.webp",
+        "memory_capacity": "32 ГБ",
+        "memory_frequency": "5200 МГц",
+        "memory_type": "DDR5 SDRAM",
+        "number_of_slats": "2",
+        "memory_timing_diagram": "40-40-40"
     },
     {
         "id": 39,
         "title": "ADATA DDR5-6000 32768MB PC5-48000",
         "price": 22560,
         "category": "ram",
-        "image": "kartinki_opra/558534586.webp"
+        "image": "kartinki_opra/558534586.webp",
+        "memory_capacity": "32 ГБ",
+        "memory_frequency": "6000 МГц",
+        "memory_type": "DDR5 SDRAM",
+        "number_of_slats": "30-40-40",
+        "memory_timing_diagram": "2"
     },
     {
         "id": 40,
         "title": "ADATA DDR5-6400 32768MB PC5-51200",
         "price": 31828,
         "category": "ram",
-        "image": "kartinki_opra/443372981.webp"
+        "image": "kartinki_opra/443372981.webp",
+        "memory_capacity": "32 ГБ",
+        "memory_frequency": "6400 МГц",
+        "memory_type": "6400 МГц",
+        "number_of_slats": "2",
+        "memory_timing_diagram": "32-39-39"
     },
     {
         "id": 41,
         "title": "G.Skill DDR5-6000 32768MB PC5-48000",
         "price": 17485,
         "category": "ram",
-        "image": "kartinki_opra/318371767.webp"
+        "image": "kartinki_opra/318371767.webp",
+        "memory_capacity": "32 ГБ",
+        "memory_frequency": "6000 МГц",
+        "memory_type": "DDR5 SDRAM",
+        "number_of_slats": "2",
+        "memory_timing_diagram": "30-38-38"
     },
     {
         "id": 42,
         "title": "Goodram DDR5-6400 32768MB PC5-51200",
         "price": 14999,
         "category": "ram",
-        "image": "kartinki_opra/382536304.webp"
+        "image": "kartinki_opra/382536304.webp",
+        "memory_capacity": "32 ГБ",
+        "memory_frequency": "6400 МГц",
+        "memory_type": "DDR5 SDRAM",
+        "number_of_slats": "2",
+        "memory_timing_diagram": "32-38-38"
     },
     {
         "id": 43,
         "title": "Lexar DDR4-3600 16384MB PC4-28800",
         "price": 4699,
         "category": "ram",
-        "image": "kartinki_opra/417669137.webp"
+        "image": "kartinki_opra/417669137.webp",
+        "memory_capacity": "",
+        "memory_frequency": "",
+        "memory_type": "",
+        "number_of_slats": "",
+        "memory_timing_diagram": ""
     },
     {
         "id": 44,
         "title": "Kingston Fury DDR5 16GB (2x8) 6000MHz Beast RGB EXPO",
         "price": 9037,
         "category": "ram",
-        "image": "kartinki_opra/616838873.webp"
+        "image": "kartinki_opra/616838873.webp",
+        "memory_capacity": "",
+        "memory_frequency": "",
+        "memory_type": "",
+        "number_of_slats": "",
+        "memory_timing_diagram": ""
     },
     {
         "id": 45,
         "title": "Exceleram DDR4 32GB (2x16GB) 2666MHz Black Sark",
         "price": 7007,
         "category": "ram",
-        "image": "kartinki_opra/488130206.webp"
+        "image": "kartinki_opra/488130206.webp",
+        "memory_capacity": "",
+        "memory_frequency": "",
+        "memory_type": "",
+        "number_of_slats": "",
+        "memory_timing_diagram": ""
     },
     {
         "id": 46,
         "title": "Patriot Viper Steel DDR4 16GB (2x8GB) 3600MHz",
         "price": 5382,
         "category": "ram",
-        "image": "kartinki_opra/277708154.webp"
+        "image": "kartinki_opra/277708154.webp",
+        "memory_capacity": "",
+        "memory_frequency": "",
+        "memory_type": "",
+        "number_of_slats": "",
+        "memory_timing_diagram": ""
     },
     {
         "id": 47,
         "title": "G.SKILL F5-5200J4040A16GX2-RS5K",
         "price": 15539,
         "category": "ram",
-        "image": "kartinki_opra/444377974.webp"
+        "image": "kartinki_opra/444377974.webp",
+        "memory_capacity": "",
+        "memory_frequency": "",
+        "memory_type": "",
+        "number_of_slats": "",
+        "memory_timing_diagram": ""
     },
     {
         "id": 48,
         "title": "G.Skill DDR4 32GB (2x16GB) 3200MHz TridentZ NEO",
         "price": 13444,
         "category": "ram",
-        "image": "kartinki_opra/438930940.webp"
+        "image": "kartinki_opra/438930940.webp",
+        "memory_capacity": "",
+        "memory_frequency": "",
+        "memory_type": "",
+        "number_of_slats": "",
+        "memory_timing_diagram": ""
     },
     {
         "id": 201,

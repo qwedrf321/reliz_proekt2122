@@ -40,12 +40,15 @@ if (clearBtn) {
 }
 
 function showCartList() {
+    if (!cart_list) return; // Проверка на существование элемента
     cart_list.innerHTML = ''
     for (let key in cart.items) { // проходимося по всіх ключах об'єкта cart.items
         cart_list.innerHTML += get_item(cart.items[key])
     }
-    cart_total.innerHTML = cart.getTotal()
-    
+    if (cart_total) {
+        cart_total.innerHTML = cart.getTotal()
+    }
+
     // Додаємо обробники для кнопок видалення
     document.querySelectorAll('.delbtn').forEach((btn, index) => {
         const keys = Object.keys(cart.items);
@@ -58,45 +61,52 @@ function showCartList() {
     });
 }
 
-showCartList()
+// Вызываем showCartList только если мы на странице корзины/магазина
+if (cart_list && cart_total) {
+    showCartList();
+}
 
-orderBtn.addEventListener("click", function (event) {
-    orderBtn.style.display = "none"
-    orderSection.style.display = "block"
-    anime({
-        targets: '.order',
-        opacity: 1, // Кінцева прозорість (1 - повністю видимий)
-        duration: 1000, // Тривалість анімації в мілісекундах
-        easing: 'easeInOutQuad'
-    })
-})
+if (orderBtn) {
+    orderBtn.addEventListener("click", function (event) {
+        orderBtn.style.display = "none"
+        orderSection.style.display = "block"
+        anime({
+            targets: '.order',
+            opacity: 1, // Кінцева прозорість (1 - повністю видимий)
+            duration: 1000, // Тривалість анімації в мілісекундах
+            easing: 'easeInOutQuad'
+        })
+    });
+}
 const modal = document.getElementById('modal');
 const closeBtn = document.getElementById('closeModal');
 
 // открыть
 function openModal() {
-    modal.style.display = 'flex';
+    if (modal) modal.style.display = 'flex';
 }
 
 // закрыть
 function closeModal() {
-    modal.style.display = 'none';
-    orderBtn.style.display = 'block';
+    if (modal) modal.style.display = 'none';
+    if (orderBtn) orderBtn.style.display = 'block';
 }
 
-closeBtn.onclick = closeModal;
+if (closeBtn) closeBtn.onclick = closeModal;
 
 // закрытие по клику вне окна
-modal.onclick = (e) => {
-    if (e.target === modal) closeModal();
-};
+if (modal) {
+    modal.onclick = (e) => {
+        if (e.target === modal) closeModal();
+    };
+}
 
 // Обробка форми замовлення
 const orderForm = document.querySelector('.order-form');
 if (orderForm) {
     orderForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        
+
         const formData = {
             firstName: document.getElementById('firstName').value,
             lastName: document.getElementById('lastName').value,
@@ -108,20 +118,22 @@ if (orderForm) {
             items: cart.items,
             total: cart.getTotal()
         };
-        
+
         console.log('Order submitted:', formData);
-        
+
         // Відправка на сервер (якщо потрібно)
         // fetch('/api/orders', { method: 'POST', body: JSON.stringify(formData) })
-        
+
         // Очищення корзини та закриття модалю
         cart.clear();
         closeModal();
         showCartList();
         orderBtn.style.display = 'block';
-        
+
         // Показати повідомлення про успіх
         //alert('Ну і куда ті заказіваеш');
         window.location.href = 'https://youtu.be/dQw4w9WgXcQ?si=mmPsyCtptFB9mFvJ&t=40';
     });
 }
+
+console.log("dzava.js работает");

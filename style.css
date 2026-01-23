@@ -143,6 +143,9 @@ a{
     flex-shrink: 0;
 }
 
+.tovar{
+    height:215px;
+}
 .product_img img{
     object-fit: contain;
     width: 100%;
