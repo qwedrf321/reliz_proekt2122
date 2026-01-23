@@ -497,11 +497,11 @@
         "price": 4699,
         "category": "ram",
         "image": "kartinki_opra/417669137.webp",
-        "memory_capacity": "",
-        "memory_frequency": "",
-        "memory_type": "",
-        "number_of_slats": "",
-        "memory_timing_diagram": ""
+        "memory_capacity": "32 ГБ",
+        "memory_frequency": "3600 МГц",
+        "memory_type": "DDR4 SDRAM",
+        "number_of_slats": "2",
+        "memory_timing_diagram": "32-38-38"
     },
     {
         "id": 44,
@@ -509,11 +509,11 @@
         "price": 9037,
         "category": "ram",
         "image": "kartinki_opra/616838873.webp",
-        "memory_capacity": "",
-        "memory_frequency": "",
-        "memory_type": "",
-        "number_of_slats": "",
-        "memory_timing_diagram": ""
+        "memory_capacity": "32 ГБ",
+        "memory_frequency": "6000 МГц",
+        "memory_type": "DDR5 SDRAM",
+        "number_of_slats": "2",
+        "memory_timing_diagram": "36-44-44"
     },
     {
         "id": 45,
@@ -521,11 +521,11 @@
         "price": 7007,
         "category": "ram",
         "image": "kartinki_opra/488130206.webp",
-        "memory_capacity": "",
-        "memory_frequency": "",
-        "memory_type": "",
-        "number_of_slats": "",
-        "memory_timing_diagram": ""
+        "memory_capacity": "32 ГБ",
+        "memory_frequency": "3200 МГц",
+        "memory_type": "DDR4 SDRAM",
+        "number_of_slats": "2",
+        "memory_timing_diagram": "22-22-22"
     },
     {
         "id": 46,
@@ -533,11 +533,11 @@
         "price": 5382,
         "category": "ram",
         "image": "kartinki_opra/277708154.webp",
-        "memory_capacity": "",
-        "memory_frequency": "",
-        "memory_type": "",
-        "number_of_slats": "",
-        "memory_timing_diagram": ""
+        "memory_capacity": "16GB",
+        "memory_frequency": "3600MHz",
+        "memory_type": "DDR4",
+        "number_of_slats": "2",
+        "memory_timing_diagram": "18-22-22"
     },
     {
         "id": 47,
@@ -545,11 +545,11 @@
         "price": 15539,
         "category": "ram",
         "image": "kartinki_opra/444377974.webp",
-        "memory_capacity": "",
-        "memory_frequency": "",
-        "memory_type": "",
-        "number_of_slats": "",
-        "memory_timing_diagram": ""
+        "memory_capacity": "16 ГБ",
+        "memory_frequency": "3600 МГц",
+        "memory_type": "DDR4 SDRAM",
+        "number_of_slats": "2",
+        "memory_timing_diagram": "18-22-22-42"
     },
     {
         "id": 48,
@@ -557,514 +557,898 @@
         "price": 13444,
         "category": "ram",
         "image": "kartinki_opra/438930940.webp",
-        "memory_capacity": "",
-        "memory_frequency": "",
-        "memory_type": "",
-        "number_of_slats": "",
-        "memory_timing_diagram": ""
+        "memory_capacity": "32 ГБ",
+        "memory_frequency": "3200 МГц",
+        "memory_type": "DDR4 SDRAM",
+        "number_of_slats": "2",
+        "memory_timing_diagram": "16-18-18"
     },
     {
         "id": 201,
-        "title": "SSD диск Kingston NV3 1TB M.2 2280 NVMe PCIe 4.0 x4 3D NAND",
-        "price": 5719,
+        "title": "SSD диск Samsung 990 Evo 2TB M.2 PCIe 4.0 x4/5.0 x2 NVMe 2.0",
+        "price": 12139,
         "category": "ssd",
-        "image": "kartinki_ssd/522104672.webp"
+        "image": "kartinki_ssd/522104672.webp",
+        "capacity": "2 ТБ",
+        "form_factor": "M.2 2280",
+        "interface": "PCIe 4.0 x4 NVMe",
+        "read_speed": "5000 МБ/с",
+        "write_speed": "4200 МБ/с"
     },
     {
         "id": 202,
         "title": "SSD диск Kingston NV3 1TB M.2 2280 NVMe PCIe 4.0 x4 3D NAND",
         "price": 5719,
         "category": "ssd",
-        "image": "kartinki_ssd/458852748.webp"
+        "image": "kartinki_ssd/458852748.webp",
+        "capacity": "1 ТБ",
+        "form_factor": "M.2 2280",
+        "interface": "PCIe 4.0 x4 NVMe",
+        "read_speed": "6000 МБ/с",
+        "write_speed": "4000 МБ/с"
     },
     {
         "id": 203,
         "title": "SSD диск Samsung 990 Pro 1TB M.2 PCIe 4.0 x4 NVMe 2.0 V-NAND 3bit",
         "price": 9349,
         "category": "ssd",
-        "image": "kartinki_ssd/348855672.webp"
+        "image": "kartinki_ssd/348855672.webp",
+        "capacity": "1 ТБ",
+        "form_factor": "M.2 2280",
+        "interface": "PCIe 4.0 x4 NVMe",
+        "read_speed": "7450 МБ/с",
+        "write_speed": "6900 МБ/с"
     },
     {
         "id": 204,
         "title": "SSD диск Gigabyte Gen4 4000E 250GB M.2 2280 NVMe PCIe 4.0 x4 3D",
         "price": 2299,
         "category": "ssd",
-        "image": "kartinki_ssd/510833998.webp"
+        "image": "kartinki_ssd/510833998.webp",
+        "capacity": "250 ГБ",
+        "form_factor": "M.2 2280",
+        "interface": "PCIe 4.0 x4 NVMe",
+        "read_speed": "4000 МБ/с",
+        "write_speed": "3000 МБ/с"
     },
     {
         "id": 205,
         "title": "SSD диск Goodram PX500 Gen.3 1TB M.2 2280 PCIe 3.0 x4 NVMe",
         "price": 6729,
         "category": "ssd",
-        "image": "kartinki_ssd/471012108.webp"
+        "image": "kartinki_ssd/471012108.webp",
+        "capacity": "1 ТБ",
+        "form_factor": "M.2 2280",
+        "interface": "PCIe 3.0 x4 NVMe",
+        "read_speed": "2050 МБ/с",
+        "write_speed": "1650 МБ/с"
     },
     {
         "id": 206,
         "title": "SSD диск Kingston NV3 2TB M.2 2280 NVMe PCIe 4.0 x4 3D NAND",
         "price": 10879,
         "category": "ssd",
-        "image": "kartinki_ssd/458853192.webp"
+        "image": "kartinki_ssd/458853192.webp",
+        "capacity": "2 ТБ",
+        "form_factor": "M.2 2280",
+        "interface": "PCIe 4.0 x4 NVMe",
+        "read_speed": "6000 МБ/с",
+        "write_speed": "5000 МБ/с"
     },
     {
         "id": 207,
         "title": "SSD диск Kingston KC3000 1TB M.2 2280 NVMe PCIe Gen 4.0 x4",
         "price": 8639,
         "category": "ssd",
-        "image": "kartinki_ssd/237276498.webp"
+        "image": "kartinki_ssd/237276498.webp",
+        "capacity": "1 ТБ",
+        "form_factor": "M.2 2280",
+        "interface": "PCIe 4.0 x4 NVMe",
+        "read_speed": "7000 МБ/с",
+        "write_speed": "6000 МБ/с"
     },
     {
         "id": 208,
         "title": "SSD диск Western Digital Green SN3000 1TB M.2 2280 NVMe PCIe 4.0",
         "price": 5629,
         "category": "ssd",
-        "image": "kartinki_ssd/532093208.webp"
+        "image": "kartinki_ssd/532093208.webp",
+        "capacity": "1 ТБ",
+        "form_factor": "M.2 2280",
+        "interface": "PCIe 4.0 x4 NVMe",
+        "read_speed": "5000 МБ/с",
+        "write_speed": "4000 МБ/с"
     },
     {
         "id": 209,
         "title": "SSD диск MSI Spatium M450 1TB NVMe M.2 PCIe 4.0 TLC 3D NAND",
         "price": 5999,
         "category": "ssd",
-        "image": "kartinki_ssd/396887813.webp"
+        "image": "kartinki_ssd/396887813.webp",
+        "capacity": "1 ТБ",
+        "form_factor": "M.2 2280",
+        "interface": "PCIe 4.0 x4 NVMe",
+        "read_speed": "3600 МБ/с",
+        "write_speed": "3000 МБ/с"
     },
     {
         "id": 210,
         "title": "SSD диск Samsung 990 Pro 4TB M.2 PCIe 4.0 x4 V-NAND 3-bit MLC",
         "price": 28999,
         "category": "ssd",
-        "image": "kartinki_ssd/423131361.webp"
+        "image": "kartinki_ssd/423131361.webp",
+        "capacity": "4 ТБ",
+        "form_factor": "M.2 2280",
+        "interface": "PCIe 4.0 x4 NVMe",
+        "read_speed": "7450 МБ/с",
+        "write_speed": "6900 МБ/с"
     },
     {
         "id": 211,
         "title": "SSD диск Western Digital Blue SN580 NVMe 1TB M.2 2280 PCIe 4.0 x4 3D",
         "price": 6999,
         "category": "ssd",
-        "image": "kartinki_ssd/382023397.webp"
+        "image": "kartinki_ssd/382023397.webp",
+        "capacity": "1 ТБ",
+        "form_factor": "M.2 2280",
+        "interface": "PCIe 4.0 x4 NVMe",
+        "read_speed": "4150 МБ/с",
+        "write_speed": "4150 МБ/с"
     },
     {
         "id": 212,
         "title": "SSD диск Kingston FURY Renegade with Heatsink 2TB NVMe M.2 2280",
         "price": 15859,
         "category": "ssd",
-        "image": "kartinki_ssd/295523492.webp"
+        "image": "kartinki_ssd/295523492.webp",
+        "capacity": "2 ТБ",
+        "form_factor": "M.2 2280",
+        "interface": "PCIe 4.0 x4 NVMe",
+        "read_speed": "7300 МБ/с",
+        "write_speed": "7000 МБ/с"
     },
     {
         "id": 57,
         "title": "Жорсткий диск Seagate BarraCuda HDD 2TB",
         "price": 4699,
         "category": "hdd",
-        "image": "kartinki_hdd/12241784.webp"
+        "image": "kartinki_hdd/12241784.webp",
+        "capacity": "2 ТБ",
+        "form_factor": "3.5\"",
+        "interface": "SATA III 6 Gb/s",
+        "spindle_speed": "7200 об/хв",
+        "cache": "256 МБ"
     },
     {
         "id": 58,
         "title": "Жорсткий диск Western Digital Red Plus 4TB",
         "price": 7529,
         "category": "hdd",
-        "image": "kartinki_hdd/303715831.webp"
+        "image": "kartinki_hdd/303715831.webp",
+        "capacity": "4 ТБ",
+        "form_factor": "3.5\"",
+        "interface": "SATA III 6 Gb/s",
+        "spindle_speed": "5400 об/хв",
+        "cache": "128 МБ"
     },
     {
         "id": 59,
         "title": "Жорсткий диск Seagate SkyHawk 4TB",
         "price": 5099,
         "category": "hdd",
-        "image": "kartinki_hdd/273481745.webp"
+        "image": "kartinki_hdd/273481745.webp",
+        "capacity": "4 ТБ",
+        "form_factor": "3.5\"",
+        "interface": "SATA III",
+        "spindle_speed": "5900 об/хв",
+        "cache": "256 МБ"
     },
     {
         "id": 60,
         "title": "Жорсткий диск Seagate IronWolf HDD 8TB",
         "price": 11509,
         "category": "hdd",
-        "image": "kartinki_hdd/15961545.webp"
+        "image": "kartinki_hdd/15961545.webp",
+        "capacity": "8 ТБ",
+        "form_factor": "3.5\"",
+        "interface": "SATA III",
+        "spindle_speed": "7200 об/хв",
+        "cache": "256 МБ"
     },
     {
         "id": 61,
         "title": "Жорсткий диск Western Digital Purple Pro 18TB",
         "price": 20499,
         "category": "hdd",
-        "image": "kartinki_hdd/191535972.webp"
+        "image": "kartinki_hdd/191535972.webp",
+        "capacity": "18 ТБ",
+        "form_factor": "3.5\"",
+        "interface": "SATA III",
+        "spindle_speed": "7200 об/хв",
+        "cache": "512 МБ"
     },
     {
         "id": 62,
         "title": "Жорсткий диск Toshiba Surveillance Hard Drive",
         "price": 3899,
         "category": "hdd",
-        "image": "kartinki_hdd/572590882.webp"
+        "image": "kartinki_hdd/572590882.webp",
+        "capacity": "2 ТБ",
+        "form_factor": "3.5\"",
+        "interface": "SATA III",
+        "spindle_speed": "5700 об/хв",
+        "cache": "128 МБ"
     },
     {
         "id": 63,
         "title": "Жорсткий диск Toshiba P300 500GB",
         "price": 1999,
         "category": "hdd",
-        "image": "kartinki_hdd/384992684.webp"
+        "image": "kartinki_hdd/384992684.webp",
+        "capacity": "500 ГБ",
+        "form_factor": "3.5\"",
+        "interface": "SATA III",
+        "spindle_speed": "7200 об/хв",
+        "cache": "64 МБ"
     },
     {
         "id": 64,
         "title": "Жорсткий диск Seagate Exos 7E10 6TB 7200rpm",
         "price": 9999,
         "category": "hdd",
-        "image": "kartinki_hdd/250567300.webp"
+        "image": "kartinki_hdd/250567300.webp",
+        "capacity": "6 ТБ",
+        "form_factor": "3.5\"",
+        "interface": "SATA III",
+        "spindle_speed": "7200 об/хв",
+        "cache": "256 МБ"
     },
     {
         "id": 65,
         "title": "Накопичувач HDD SATA 18.0TB",
         "price": 20817,
         "category": "hdd",
-        "image": "kartinki_hdd/588597441.webp"
+        "image": "kartinki_hdd/588597441.webp",
+        "capacity": "18 ТБ",
+        "form_factor": "3.5\"",
+        "interface": "SATA III",
+        "spindle_speed": "7200 об/хв",
+        "cache": "256 МБ"
     },
     {
         "id": 66,
         "title": "Жорсткий диск Western Digital Blue 2TB",
         "price": 6511,
         "category": "hdd",
-        "image": "kartinki_hdd/328764580.webp"
+        "image": "kartinki_hdd/328764580.webp",
+        "capacity": "2 ТБ",
+        "form_factor": "3.5\"",
+        "interface": "SATA III",
+        "spindle_speed": "5400 об/хв",
+        "cache": "256 МБ"
     },
     {
         "id": 67,
         "title": "Жорсткий диск Western Digital Black Gaming 10TB",
         "price": 21535,
         "category": "hdd",
-        "image": "kartinki_hdd/592805347.webp"
+        "image": "kartinki_hdd/592805347.webp",
+        "capacity": "10 ТБ",
+        "form_factor": "3.5\"",
+        "interface": "SATA III",
+        "spindle_speed": "7200 об/хв",
+        "cache": "256 МБ"
     },
     {
         "id": 68,
         "title": "Жорсткий диск Seagate IronWolf HDD 12TB",
         "price": 19811,
         "category": "hdd",
-        "image": "kartinki_hdd/314977196.webp"
+        "image": "kartinki_hdd/314977196.webp",
+        "capacity": "12 ТБ",
+        "form_factor": "3.5\"",
+        "interface": "SATA III",
+        "spindle_speed": "7200 об/хв",
+        "cache": "256 МБ"
     },
     {
         "id": 69,
         "title": "Кулер процесорний ID-Cooling Frozn A400 Black",
         "price": 929,
         "category": "cooling",
-        "image": "kartinki_cold/426118705.webp"
+        "image": "kartinki_cold/426118705.webp",
+        "cooler_design": "Tower",
+        "socket_support": "LGA1700 / AM4 / AM5",
+        "tdp": "180W",
+        "fan_size": "120mm",
+        "lighting": "No"
     },
     {
         "id": 70,
         "title": "Кулер be quiet! Pure Rock Pro 3 Black (BK042)",
         "price": 2549,
         "category": "cooling",
-        "image": "kartinki_cold/525171121.webp"
+        "image": "kartinki_cold/525171121.webp",
+        "cooler_design": "Dual Tower",
+        "socket_support": "LGA1700 / AM4 / AM5",
+        "tdp": "250W",
+        "fan_size": "120mm",
+        "lighting": "No"
     },
     {
         "id": 71,
         "title": "Кулер DeepCool AK400 Zero Dark Plus Black",
         "price": 2219,
         "category": "cooling",
-        "image": "kartinki_cold/297749889.webp"
+        "image": "kartinki_cold/297749889.webp",
+        "cooler_design": "Tower",
+        "socket_support": "LGA1700 / AM4 / AM5",
+        "tdp": "220W",
+        "fan_size": "120mm",
+        "lighting": "No"
     },
     {
         "id": 72,
         "title": "Кулер be quiet! Dark Rock 5 (BK035)",
         "price": 3699,
         "category": "cooling",
-        "image": "kartinki_cold/450991418.webp"
+        "image": "kartinki_cold/450991418.webp",
+        "cooler_design": "Tower",
+        "socket_support": "LGA1700 / AM4 / AM5",
+        "tdp": "270W",
+        "fan_size": "120mm",
+        "lighting": "No"
     },
     {
         "id": 73,
         "title": "Кулер DeepCool AK400 Digital Pro",
         "price": 2299,
         "category": "cooling",
-        "image": "kartinki_cold/511805706.webp"
+        "image": "kartinki_cold/511805706.webp",
+        "cooler_design": "Tower",
+        "socket_support": "LGA1700 / AM4 / AM5",
+        "tdp": "220W",
+        "fan_size": "120mm",
+        "lighting": "LCD"
     },
     {
         "id": 74,
         "title": "Кулер ID-Cooling SE-206-XT Black",
         "price": 1649,
         "category": "cooling",
-        "image": "kartinki_cold/346549222.webp"
+        "image": "kartinki_cold/346549222.webp",
+        "cooler_design": "Dual Tower",
+        "socket_support": "LGA1700 / AM4 / AM5",
+        "tdp": "250W",
+        "fan_size": "120mm x2",
+        "lighting": "No"
     },
     {
         "id": 75,
         "title": "Кулер процесорний ID-COOLING SE-214-XT",
         "price": 999,
         "category": "cooling",
-        "image": "kartinki_cold/498723577.webp"
+        "image": "kartinki_cold/498723577.webp",
+        "cooler_design": "Tower",
+        "socket_support": "LGA1700 / AM4 / AM5",
+        "tdp": "180W",
+        "fan_size": "120mm",
+        "lighting": "No"
     },
     {
         "id": 76,
         "title": "Кулер процесорний ID-COOLING Frozn A400 ARGB",
         "price": 1299,
         "category": "cooling",
-        "image": "kartinki_cold/498723031.webp"
+        "image": "kartinki_cold/498723031.webp",
+        "cooler_design": "Tower",
+        "socket_support": "LGA1700 / AM4 / AM5",
+        "tdp": "180W",
+        "fan_size": "120mm",
+        "lighting": "ARGB"
     },
     {
         "id": 77,
         "title": "Кулер процесорний ID-Cooling SE-224-XTS Mini Black",
         "price": 999,
         "category": "cooling",
-        "image": "kartinki_cold/356538895.webp"
+        "image": "kartinki_cold/356538895.webp",
+        "cooler_design": "Tower",
+        "socket_support": "LGA1700 / AM4 / AM5",
+        "tdp": "160W",
+        "fan_size": "120mm",
+        "lighting": "No"
     },
     {
         "id": 78,
         "title": "Кулер Deepcool ASSASSIN IV",
         "price": 4549,
         "category": "cooling",
-        "image": "kartinki_cold/364556699.webp"
+        "image": "kartinki_cold/364556699.webp",
+        "cooler_design": "Dual Tower",
+        "socket_support": "LGA1700 / AM4 / AM5",
+        "tdp": "280W",
+        "fan_size": "140mm + 120mm",
+        "lighting": "No"
     },
     {
         "id": 79,
         "title": "Кулер DeepCool AK620",
         "price": 3039,
         "category": "cooling",
-        "image": "kartinki_cold/238341852.webp"
+        "image": "kartinki_cold/238341852.webp",
+        "cooler_design": "Dual Tower",
+        "socket_support": "LGA1700 / AM4 / AM5",
+        "tdp": "260W",
+        "fan_size": "120mm x2",
+        "lighting": "No"
     },
     {
         "id": 80,
         "title": "Кулер be quiet! Pure Rock Pro 3 LX Black (BK043)",
         "price": 2749,
         "category": "cooling",
-        "image": "kartinki_cold/525178330.webp"
+        "image": "kartinki_cold/525178330.webp",
+        "cooler_design": "Dual Tower",
+        "socket_support": "LGA1700 / AM4 / AM5",
+        "tdp": "250W",
+        "fan_size": "120mm x2",
+        "lighting": "ARGB"
     },
     {
         "id": 81,
         "title": "Блок живлення Gigabyte P750GM 80+ Gold",
         "price": 3999,
         "category": "psu",
-        "image": "kartinki_bp/53790749.webp"
+        "image": "kartinki_bp/53790749.webp",
+        "power": "750W",
+        "certificate": "80+ Gold",
+        "modular": "Full",
+        "form_factor": "ATX",
+        "atx_version": "ATX 2.4"
     },
     {
         "id": 82,
         "title": "Блок живлення GameMax GM-500B",
         "price": 1099,
         "category": "psu",
-        "image": "kartinki_bp/493478407.webp"
+        "image": "kartinki_bp/493478407.webp",
+        "power": "500W",
+        "certificate": "80+ Bronze",
+        "modular": "No",
+        "form_factor": "ATX",
+        "atx_version": "ATX 2.3"
     },
     {
         "id": 83,
         "title": "Блок живлення DeepCool PF750 750W",
         "price": 2679,
         "category": "psu",
-        "image": "kartinki_bp/300738320.webp"
+        "image": "kartinki_bp/300738320.webp",
+        "power": "750W",
+        "certificate": "80+ Standard",
+        "modular": "No",
+        "form_factor": "ATX",
+        "atx_version": "ATX 2.4"
     },
     {
         "id": 84,
         "title": "Блок живлення be quiet! Straight Power 1200 Вт",
         "price": 11699,
         "category": "psu",
-        "image": "kartinki_bp/353759067.webp"
+        "image": "kartinki_bp/353759067.webp",
+        "power": "1200W",
+        "certificate": "80+ Platinum",
+        "modular": "Full",
+        "form_factor": "ATX",
+        "atx_version": "ATX 3.0"
     },
     {
         "id": 85,
         "title": "Блок живлення be quiet! PURE POWER 850W",
         "price": 6229,
         "category": "psu",
-        "image": "kartinki_bp/317230677.webp"
+        "image": "kartinki_bp/317230677.webp",
+        "power": "850W",
+        "certificate": "80+ Gold",
+        "modular": "Semi",
+        "form_factor": "ATX",
+        "atx_version": "ATX 2.4"
     },
     {
         "id": 86,
         "title": "Блок живлення be quiet! POWER ZONE 2 1000W",
         "price": 8699,
         "category": "psu",
-        "image": "kartinki_bp/533789187.webp"
+        "image": "kartinki_bp/533789187.webp",
+        "power": "1000W",
+        "certificate": "80+ Platinum",
+        "modular": "Full",
+        "form_factor": "ATX",
+        "atx_version": "ATX 3.0"
     },
     {
         "id": 87,
         "title": "Блок живлення DeepCool PL650D 650W",
         "price": 3269,
         "category": "psu",
-        "image": "kartinki_bp/530081949.webp"
+        "image": "kartinki_bp/530081949.webp",
+        "power": "650W",
+        "certificate": "80+ Bronze",
+        "modular": "No",
+        "form_factor": "ATX",
+        "atx_version": "ATX 2.4"
     },
     {
         "id": 88,
         "title": "Блок живлення Gigabyte GOLD 850W ATX 3.0",
         "price": 6199,
         "category": "psu",
-        "image": "kartinki_bp/361502771.webp"
+        "image": "kartinki_bp/361502771.webp",
+        "power": "850W",
+        "certificate": "80+ Gold",
+        "modular": "Full",
+        "form_factor": "ATX",
+        "atx_version": "ATX 3.0"
     },
     {
         "id": 89,
         "title": "Блок живлення AeroCool VX Plus 750W",
         "price": 2199,
         "category": "psu",
-        "image": "kartinki_bp/356124724.webp"
+        "image": "kartinki_bp/356124724.webp",
+        "power": "750W",
+        "certificate": "80+ Standard",
+        "modular": "No",
+        "form_factor": "ATX",
+        "atx_version": "ATX 2.3"
     },
     {
         "id": 90,
         "title": "Блок живлення DeepCool PN750M 750W",
         "price": 5699,
         "category": "psu",
-        "image": "kartinki_bp/570810301.webp"
+        "image": "kartinki_bp/570810301.webp",
+        "power": "750W",
+        "certificate": "80+ Gold",
+        "modular": "Full",
+        "form_factor": "ATX",
+        "atx_version": "ATX 3.0"
     },
     {
         "id": 91,
         "title": "Блок живлення be quiet! Pure Power 12 750W",
         "price": 4999,
         "category": "psu",
-        "image": "kartinki_bp/524773815.webp"
+        "image": "kartinki_bp/524773815.webp",
+        "power": "750W",
+        "certificate": "80+ Gold",
+        "modular": "Full",
+        "form_factor": "ATX",
+        "atx_version": "ATX 3.0"
     },
     {
         "id": 92,
         "title": "Блок живлення Cougar GEX 750",
         "price": 5299,
         "category": "psu",
-        "image": "kartinki_bp/178053801.webp"
+        "image": "kartinki_bp/178053801.webp",
+        "power": "750W",
+        "certificate": "80+ Gold",
+        "modular": "Full",
+        "form_factor": "ATX",
+        "atx_version": "ATX 2.4"
     },
     {
         "id": 93,
         "title": "Корпус 1STPLAYER D4-BK-4F1 Black",
         "price": 1899,
         "category": "case",
-        "image": "kartinki_case/550106243.webp"
+        "image": "kartinki_case/550106243.webp",
+        "form_factor": "ATX / Micro-ATX / Mini-ITX",
+        "case_type": "Mid Tower",
+        "side_panel": "Tempered Glass",
+        "fans_included": "4",
+        "backlight": "RGB"
     },
     {
         "id": 94,
         "title": "Корпус Gamdias Aura GC7 ARGB Black",
         "price": 1599,
         "category": "case",
-        "image": "kartinki_case/451208720.webp"
+        "image": "kartinki_case/451208720.webp",
+        "form_factor": "ATX / Micro-ATX / Mini-ITX",
+        "case_type": "Mid Tower",
+        "side_panel": "Tempered Glass",
+        "fans_included": "3",
+        "backlight": "ARGB"
     },
     {
         "id": 95,
         "title": "Корпус 1STPLAYER D4-WH-4F1-W White",
         "price": 1899,
         "category": "case",
-        "image": "kartinki_case/550104855.webp"
+        "image": "kartinki_case/550104855.webp",
+        "form_factor": "ATX / Micro-ATX / Mini-ITX",
+        "case_type": "Mid Tower",
+        "side_panel": "Tempered Glass",
+        "fans_included": "4",
+        "backlight": "RGB"
     },
     {
         "id": 96,
         "title": "Корпус Prologix E115 Tempered Glass & Mesh Black",
         "price": 2299,
         "category": "case",
-        "image": "kartinki_case/451284139.webp"
+        "image": "kartinki_case/451284139.webp",
+        "form_factor": "ATX / Micro-ATX / Mini-ITX",
+        "case_type": "Mid Tower",
+        "side_panel": "Tempered Glass",
+        "fans_included": "3",
+        "backlight": "RGB"
     },
     {
         "id": 97,
         "title": "Корпус PcCooler C3B310 BK",
         "price": 1539,
         "category": "case",
-        "image": "kartinki_case/416965335.webp"
+        "image": "kartinki_case/416965335.webp",
+        "form_factor": "Micro-ATX / Mini-ITX",
+        "case_type": "Mini Tower",
+        "side_panel": "Acrylic",
+        "fans_included": "2",
+        "backlight": "No"
     },
     {
         "id": 98,
         "title": "Корпус Deepcool CG580 Black",
         "price": 3459,
         "category": "case",
-        "image": "kartinki_case/504970275.webp"
+        "image": "kartinki_case/504970275.webp",
+        "form_factor": "ATX / Micro-ATX / Mini-ITX",
+        "case_type": "Mid Tower",
+        "side_panel": "Tempered Glass",
+        "fans_included": "4",
+        "backlight": "ARGB"
     },
     {
         "id": 99,
         "title": "Корпус MSI MAG Forge 100M Black",
         "price": 2899,
         "category": "case",
-        "image": "kartinki_case/127812442.webp"
+        "image": "kartinki_case/127812442.webp",
+        "form_factor": "ATX / Micro-ATX / Mini-ITX",
+        "case_type": "Mid Tower",
+        "side_panel": "Tempered Glass",
+        "fans_included": "3",
+        "backlight": "RGB"
     },
     {
         "id": 100,
         "title": "Корпус Prologix E113 Tempered Glass & Mesh",
         "price": 1399,
         "category": "case",
-        "image": "kartinki_case/399096272.webp"
+        "image": "kartinki_case/399096272.webp",
+        "form_factor": "Micro-ATX / Mini-ITX",
+        "case_type": "Mini Tower",
+        "side_panel": "Tempered Glass",
+        "fans_included": "2",
+        "backlight": "RGB"
     },
     {
         "id": 101,
         "title": "Корпус PcCOOLER C3D310 BK",
         "price": 2099,
         "category": "case",
-        "image": "kartinki_case/551811845.webp"
+        "image": "kartinki_case/551811845.webp",
+        "form_factor": "Micro-ATX / Mini-ITX",
+        "case_type": "Mini Tower",
+        "side_panel": "Tempered Glass",
+        "fans_included": "3",
+        "backlight": "ARGB"
     },
     {
         "id": 102,
         "title": "Корпус Cougar Uniface RGB Black",
         "price": 4199,
         "category": "case",
-        "image": "kartinki_case/419010910.webp"
+        "image": "kartinki_case/419010910.webp",
+        "form_factor": "ATX / Micro-ATX / Mini-ITX",
+        "case_type": "Mid Tower",
+        "side_panel": "Tempered Glass",
+        "fans_included": "4",
+        "backlight": "RGB"
     },
     {
         "id": 103,
         "title": "Корпус be quiet! Pure Base 501 Airflow Window",
         "price": 4749,
         "category": "case",
-        "image": "kartinki_case/494721270.webp"
+        "image": "kartinki_case/494721270.webp",
+        "form_factor": "ATX / Micro-ATX / Mini-ITX",
+        "case_type": "Mid Tower",
+        "side_panel": "Tempered Glass",
+        "fans_included": "2",
+        "backlight": "No"
     },
     {
         "id": 104,
         "title": "Корпус GameMax Starlight 2 AB",
         "price": 2349,
         "category": "case",
-        "image": "kartinki_case/542875439.webp"
+        "image": "kartinki_case/542875439.webp",
+        "form_factor": "ATX / Micro-ATX / Mini-ITX",
+        "case_type": "Mid Tower",
+        "side_panel": "Tempered Glass",
+        "fans_included": "4",
+        "backlight": "ARGB"
+    },
+    {
+        "id": 103,
+        "title": "Корпус be quiet! Pure Base 501 Airflow Window",
+        "price": 4749,
+        "category": "case",
+        "image": "kartinki_case/494721270.webp",
+        "form_factor": "ATX / Micro-ATX / Mini-ITX",
+        "case_type": "Mid Tower",
+        "side_panel": "Tempered Glass",
+        "fans_included": "2",
+        "backlight": "No"
+    },
+    {
+        "id": 104,
+        "title": "Корпус GameMax Starlight 2 AB",
+        "price": 2349,
+        "category": "case",
+        "image": "kartinki_case/542875439.webp",
+        "form_factor": "ATX / Micro-ATX / Mini-ITX",
+        "case_type": "Mid Tower",
+        "side_panel": "Tempered Glass",
+        "fans_included": "4",
+        "backlight": "ARGB"
     },
     {
         "id": 105,
         "title": "Комп'ютер Apple Mac Mini M4 16/512GB",
         "price": 49999,
         "category": "pc",
-        "image": "kartinki_cborki/486099022.webp"
+        "image": "kartinki_cborki/486099022.webp",
+        "cpu": "Apple M4",
+        "gpu": "Apple GPU",
+        "ram": "16 GB",
+        "storage": "512 GB SSD",
+        "pc_type": "Mini PC"
     },
     {
         "id": 106,
-        "title": "hp prodesk 600 g3 dm",
+        "title": "HP ProDesk 600 G3 DM",
         "price": 9,
         "category": "pc",
-        "image": "kartinki_cborki/HP_ProDesk_600_G3_Mini.jpg"
+        "image": "kartinki_cborki/HP_ProDesk_600_G3_Mini.jpg",
+        "cpu": "Intel Core i5 7th Gen",
+        "gpu": "Intel HD Graphics",
+        "ram": "8 GB",
+        "storage": "256 GB SSD",
+        "pc_type": "Office Mini PC"
     },
     {
         "id": 107,
-        "title": "Комп'ютер ARTLINE Gaming X43 (X43v59)",
+        "title": "ARTLINE Gaming X43 (X43v59)",
         "price": 31999,
         "category": "pc",
-        "image": "kartinki_cborki/536883476.webp"
+        "image": "kartinki_cborki/536883476.webp",
+        "cpu": "Ryzen 5 5500",
+        "gpu": "GeForce RTX 3060",
+        "ram": "16 GB",
+        "storage": "1 TB SSD",
+        "pc_type": "Gaming PC"
     },
     {
         "id": 108,
-        "title": "Комп'ютер Cobra (A55.32.S10.55.22295)",
+        "title": "Cobra (A55.32.S10.55.22295)",
         "price": 33999,
         "category": "pc",
-        "image": "kartinki_cborki/602895942.webp"
+        "image": "kartinki_cborki/602895942.webp",
+        "cpu": "Ryzen 5 5600",
+        "gpu": "RTX 3060",
+        "ram": "32 GB",
+        "storage": "1 TB SSD",
+        "pc_type": "Gaming PC"
     },
     {
         "id": 109,
-        "title": "Комп'ютер ARTLINE Gaming X47 (X47v45)",
+        "title": "ARTLINE Gaming X47 (X47v45)",
         "price": 40399,
         "category": "pc",
-        "image": "kartinki_cborki/320078659.webp"
+        "image": "kartinki_cborki/320078659.webp",
+        "cpu": "Ryzen 7 5700X",
+        "gpu": "RTX 4060",
+        "ram": "32 GB",
+        "storage": "1 TB SSD",
+        "pc_type": "Gaming PC"
     },
     {
         "id": 110,
-        "title": "Комп'ютер Cobra Advanced (A55.16.S4.35.19300)",
+        "title": "Cobra Advanced (A55.16.S4.35.19300)",
         "price": 31999,
         "category": "pc",
-        "image": "kartinki_cborki/602895942.webp"
+        "image": "kartinki_cborki/602895942.webp",
+        "cpu": "Ryzen 5 5600",
+        "gpu": "RTX 3050",
+        "ram": "16 GB",
+        "storage": "512 GB SSD",
+        "pc_type": "Gaming PC"
     },
     {
         "id": 111,
-        "title": "Комп'ютер COBRA Advanced (A55.16.S10.56.23064)",
+        "title": "COBRA Advanced (A55.16.S10.56.23064)",
         "price": 37999,
         "category": "pc",
-        "image": "kartinki_cborki/620425198.webp"
+        "image": "kartinki_cborki/620425198.webp",
+        "cpu": "Ryzen 5 5600",
+        "gpu": "RTX 4060",
+        "ram": "16 GB",
+        "storage": "1 TB SSD",
+        "pc_type": "Gaming PC"
     },
     {
         "id": 112,
-        "title": "Комп'ютер ARTLINE Gaming X43 (X43v45)",
+        "title": "ARTLINE Gaming X43 (X43v45)",
         "price": 32999,
         "category": "pc",
-        "image": "kartinki_cborki/416512630.webp"
+        "image": "kartinki_cborki/416512630.webp",
+        "cpu": "Ryzen 5 5500",
+        "gpu": "RTX 3060",
+        "ram": "16 GB",
+        "storage": "1 TB SSD",
+        "pc_type": "Gaming PC"
     },
     {
         "id": 113,
-        "title": "Моноблок Lenovo IdeaCentre AIO 24IRH9",
+        "title": "Lenovo IdeaCentre AIO 24IRH9",
         "price": 23999,
         "category": "pc",
-        "image": "https://content.rozetka.com.ua/goods/images/big/462360643.jpg"
+        "image": "https://content.rozetka.com.ua/goods/images/big/462360643.jpg",
+        "cpu": "Intel Core i5-13420H",
+        "gpu": "Intel UHD Graphics",
+        "ram": "16 GB",
+        "storage": "512 GB SSD",
+        "pc_type": "All-in-One"
     },
     {
         "id": 114,
-        "title": "Комп'ютер ARTLINE Gaming D31 (D31v88)",
+        "title": "ARTLINE Gaming D31 (D31v88)",
         "price": 88494,
         "category": "pc",
-        "image": "kartinki_cborki/528829909.webp"
+        "image": "kartinki_cborki/528829909.webp",
+        "cpu": "Ryzen 9 7900X",
+        "gpu": "RTX 4080",
+        "ram": "64 GB",
+        "storage": "2 TB SSD",
+        "pc_type": "High-End Gaming PC"
     },
     {
         "id": 115,
-        "title": "Комп'ютер Cobra (I124F.32.S10.55.22296)",
+        "title": "Cobra (I124F.32.S10.55.22296)",
         "price": 34999,
         "category": "pc",
-        "image": "kartinki_cborki/602899331.webp"
+        "image": "kartinki_cborki/602899331.webp",
+        "cpu": "Intel Core i5-12400F",
+        "gpu": "RTX 3060",
+        "ram": "32 GB",
+        "storage": "1 TB SSD",
+        "pc_type": "Gaming PC"
     },
     {
         "id": 116,
-        "title": "Комп'ютер COBRA Advanced (A75F.32.S10.56.19971)",
+        "title": "COBRA Advanced (A75F.32.S10.56.19971)",
         "price": 53999,
         "category": "pc",
-        "image": "kartinki_cborki/555319748.webp"
+        "image": "kartinki_cborki/555319748.webp",
+        "cpu": "Ryzen 7 5700X",
+        "gpu": "RTX 4070",
+        "ram": "32 GB",
+        "storage": "2 TB SSD",
+        "pc_type": "Gaming PC"
     }
 ]

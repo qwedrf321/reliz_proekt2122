@@ -23,11 +23,9 @@
             <div class="cont_like">
                 <a href="laik.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-pinned">
+                        stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-heart">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M9 4v6l-2 4v2h10v-2l-2 -4v-6" />
-                        <path d="M12 16l0 5" />
-                        <path d="M8 4l8 0" />
+                        <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
                     </svg></a>
                 <a href="store.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -45,16 +43,74 @@
     <main class='cont'>
         <div class='cont1'>
             <div class='img_tov'>
-                <img class = 'img' id="image">
+                <img class='img' id="image">
             </div>
             <div class='descr'>
-                <div class = 'des' id="properties"></div>
+                <div class='des' id="properties"></div>
             </div>
         </div>
         <div class=' cont2'>
-            <p id="title"></p>
-            <p id="price"></p>
-            <button id="buyBtn" class="buy_button">Додати в корзину</button>
+            <div class='nazva'>
+                <p id="title"></p>
+            </div>
+            <div class='cena'>
+                <p id="price"></p>
+                <div class='btn'>
+                    <button id="buyBtn" class="buy_button">Додати в корзину</button>
+                    <button id="likeBtn" class="like_button">Додати в список бажань</button>
+                </div>
+            </div>
+            <div class='offer'>
+                <h2 class='h2'>Додаткові послуги</h2>
+                <div class='checkbox'>
+                    <input class='checkbox12' type="checkbox">Сервіси гарантії<br>
+                    <input class='checkbox1' type="checkbox">Сервіс для негарантійних випадків<br>
+                    <input class='checkbox1' type="checkbox">Сервіси "Все включено"
+                </div>
+            </div>
+            <div class='minifut'>
+                <div class='wallet'>
+                    <div class='kart'>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-wallet">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M17 8v-3a1 1 0 0 0 -1 -1h-10a2 2 0 0 0 0 4h12a1 1 0 0 1 1 1v3m0 4v3a1 1 0 0 1 -1 1h-12a2 2 0 0 1 -2 -2v-12" />
+                            <path d="M20 12v4h-4a2 2 0 0 1 0 -4h4" />
+                        </svg>
+                    </div>
+                    <div class='oplata'>
+                        <p class='text'>
+                            Оплата карткою Visa/MasterCard (RozetkaPay), Покупка частинами monobank, Оплата частинами
+                            від
+                            ПриватБанк, ПУМБ: Сплачуйте частинами, Плати частинами від izibank, ОТП Банк: Оплата
+                            частинами,
+                            Оплатити Карткою Rozetka зараз</p>
+                    </div>
+                </div>
+                <div class='guard'>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-shield-cog">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M12 21a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3c.568 1.933 .635 3.957 .223 5.89" />
+                            <path d="M17.001 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                            <path d="M19.001 15.5v1.5" />
+                            <path d="M19.001 21v1.5" />
+                            <path d="M22.032 17.25l-1.299 .75" />
+                            <path d="M17.27 20l-1.3 .75" />
+                            <path d="M15.97 17.25l1.3 .75" />
+                            <path d="M20.733 20l1.3 .75" />
+                        </svg>
+                    </div>
+                    <div class='keshbek'>
+                        <p><b>Гарантія.</b> 99 місяців. Обмін/повернення товару впродовж 14 днів.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer>

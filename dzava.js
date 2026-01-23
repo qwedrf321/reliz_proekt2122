@@ -54,7 +54,11 @@ function showCartList() {
         const keys = Object.keys(cart.items);
         btn.addEventListener('click', () => {
             const itemTitle = keys[index];
-            delete cart.items[itemTitle];
+            if (cart.items[itemTitle].quantity > 1) {
+                cart.items[itemTitle].quantity -= 1;
+            } else {
+                delete cart.items[itemTitle];
+            }
             cart.saveCart();
             showCartList();
         });
